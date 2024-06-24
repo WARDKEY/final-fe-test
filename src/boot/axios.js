@@ -8,10 +8,10 @@ import {useAuthStore} from "stores/authStore";
 // good idea to move this instance creation inside of the
 // "export default () => {}" function below (which runs individually
 // for each client)
-const api = axios.create({baseURL: 'http://localhost:8080/api/v1'});
+const api = axios.create({baseURL: 'http://3.36.148.87:8080/api/v1'});
 
 const customApi = axios.create({
-  baseURL: 'http://localhost:8080/api/v1',
+  baseURL: 'http://3.36.148.87:8080/api/v1',
   headers: {
     'Content-Type': 'application/json'
   }

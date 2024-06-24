@@ -7,4 +7,3 @@ defineOptions({
   name: 'App',
 });
 </script>
-
